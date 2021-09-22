@@ -126,34 +126,38 @@ header{
   margin-right: 20px;
 }
 
+.block .last-block{
+  max-width: 1180px;
+}
+
 main section{
   width: 100%;
   padding: 30px 0;
 }
 
-main section:nth-child(odd){
+main .block:nth-child(odd){
   background-color: white;
 }
 
-main section:nth-child(even){
+main .block:nth-child(even){
   background-color: #f6f6f6;
 }
 
-main section:nth-child(odd) img{
+main .block:nth-child(odd) img{
   float: left;
 }
 
-main section:nth-child(even) img{
+main .block:nth-child(even) img{
   float: right;
 }
 
-main section:nth-child(odd) .text{
+main .block:nth-child(odd) .text{
   float: right;
   margin-right: 150px;
   padding-top: 25px;
 }
 
-main section:nth-child(even) .text{
+main .block:nth-child(even) .text{
   float: left;
   margin-left: 150px;
   padding-top: 25px;
@@ -179,3 +183,67 @@ main section .text{
   line-height: 25px;
   text-align: justify;
 }
+
+.text.last-text{
+  text-align: center;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+div.last-block{
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.text.last-text p{
+  text-align: center;
+  padding: 0 20px;
+}
+
+.last-block img{
+  width: 100%;
+}
+
+div.bottom-text{
+  width: 50%;
+  margin: 10px auto 30px;
+  background-image: url("../img/stars.svg");
+  background-size: cover;
+}
+
+.bottom-text h2{
+  line-height: 52px;
+}
+
+div.bottom-btn{
+  margin-bottom: 20px;
+}
+
+div.bottom-btn .btn{
+  color: white;
+  background-color: #8ea1e2;
+}
+
+
+
+
+
+footer{
+  height: 700px;
+  background-color: grey;
+}
+
+.contact-footer, .list-footer{
+  float: left;
+  height: 500px;
+}
+
+.contact-footer{
+  
+}
+
+
+
+
