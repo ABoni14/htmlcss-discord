@@ -233,6 +233,7 @@ footer{
 }
 
 .top-footer{
+  padding-bottom: 15px;
   border-bottom: 2px solid #8ea1e2;
 }
 
@@ -278,17 +279,28 @@ footer{
 .block-list li{
   color: #7188d9;
   list-style-type: none;
-  margin-right: 88px;
+  margin-right: 70px;
   margin-bottom: 15px;
+  font-weight: 700;
 }
 
 .block-list li a{
   text-decoration: none;
   color: white;
+  font-weight: 500;
 }
 
 .bottom-footer{
-  
+  padding-top: 30px;
+}
+
+#registrati{
+  float: right;
+}
+
+#registrati a{
+  color: white;
+  background-color: #7188d9;
 }
 
 
