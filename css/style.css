@@ -194,7 +194,7 @@ main section .text{
 div.last-block{
   background-color: #f6f6f6;
   text-align: center;
-  padding: 0 10px;
+  padding: 140px 10px 20px;
 }
 
 .text.last-text p{
@@ -303,7 +303,22 @@ footer{
   background-color: #7188d9;
 }
 
+img.wave{
+  filter: invert(100%);
+}
 
+.wave.mirror-wave{
+  transform: rotate(180deg);
+}
+
+.special-wave{
+  background-color: #f6f6f6;
+}
+
+
+.wave.wave-special{
+  background-color: #090909;
+}
 
 
 
