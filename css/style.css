@@ -50,8 +50,6 @@ header{
   color:cornflowerblue;
 }
 
-
-
 /* HEADER */
 header{
   height: 80px;
@@ -104,6 +102,7 @@ header{
   height: 547px;
   background-image: url('../img/jumbo.png');
   background-size: cover;
+  margin-bottom: 20px;
 }
 
 .jumbotron .container{
@@ -127,22 +126,56 @@ header{
   margin-right: 20px;
 }
 
-section{
-  height: 500px;
+main section{
+  width: 100%;
+  padding: 30px 0;
 }
 
 main section:nth-child(odd){
   background-color: white;
 }
 
-main section:nth-child(pair){
-  background-color: grey;
+main section:nth-child(even){
+  background-color: #f6f6f6;
 }
 
-section img{
+main section:nth-child(odd) img{
   float: left;
 }
 
-section .text{
+main section:nth-child(even) img{
   float: right;
+}
+
+main section:nth-child(odd) .text{
+  float: right;
+  margin-right: 150px;
+  padding-top: 25px;
+}
+
+main section:nth-child(even) .text{
+  float: left;
+  margin-left: 150px;
+  padding-top: 25px;
+}
+
+main section img{
+  width: 50%;
+  vertical-align: middle;
+}
+
+main section .text{
+  width: 25%;
+}
+
+.text h2{
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.text p{
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
 }
